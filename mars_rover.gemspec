@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.1.0'
 
+  spec.metadata['rubygems_mfa_required'] = 'true'
   spec.metadata['allowed_push_host'] = 'https://github.com'
 
   spec.metadata['homepage_uri'] = spec.homepage
