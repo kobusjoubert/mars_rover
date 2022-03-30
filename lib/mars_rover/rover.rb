@@ -26,6 +26,7 @@ module MarsRover
 
     def instructions=(value)
       @instructions = value.strip.gsub(/\s+/, '').upcase
+      @instructions = instructions.gsub('LLLL', '').gsub('RRRR', '').gsub('LLL', 'R').gsub('RRR', 'L')
     end
 
     def deploy!
