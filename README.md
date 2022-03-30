@@ -1,28 +1,50 @@
 # MarsRover
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mars_rover`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Mars Rover Technical Challenge](https://code.google.com/archive/p/marsrovertechchallenge/)
 
-TODO: Delete this and the text above, and describe your gem
+A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
+
+This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the surrounding terrain to send back to Earth.
+
+A rover's position is represented by a combination of an x and y co-ordinates and a letter representing one of the four cardinal compass points. The plateau is divided up into a grid to simplify navigation. An example position might be 0, 0, N, which means the rover is in the bottom left corner and facing North.
+
+In order to control a rover, NASA sends a simple string of letters. The possible letters are 'L', 'R' and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving from its current spot.
+
+'M' means move forward one grid point, and maintain the same heading.
+
+Assume that the square directly North from (x, y) is (x, y+1).
+
+## Assumptions
+
+The Mars plateau will not be larger than the terminal's screen for display purposes.
+
+A rover has to get to its destination before another rover can be landed and start its journey.
+
+You have a working Ruby environment.
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Clone the repository.
 
-    $ bundle add mars_rover
+    git clone https://github.com/kobusjoubert/mars_rover.git
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Change into the project directory
 
-    $ gem install mars_rover
+    cd mars_rover
+
+Install dependencies.
+
+    bin/setup
 
 ## Usage
 
-TODO: Write usage instructions here
+Deploy rovers to Mars.
+
+    bundle exec exe/mars_rover
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests and `rake rubocop` to check styling. You can also run `MARS_ROVER_ENV=development bin/console` for an interactive prompt that will allow you to experiment.
 
 ## Contributing
 
@@ -30,4 +52,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kobusj
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
