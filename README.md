@@ -1,8 +1,6 @@
 # MarsRover
 
-![Screenshot 2022-03-30 at 18 37 55](https://user-images.githubusercontent.com/3071529/160887021-391eb555-ffb5-47fb-bb5d-497a90839717.png)
-
-![mars_rover](https://user-images.githubusercontent.com/3071529/160899198-7453bcc1-beee-473f-af1f-3967cd56f8e1.gif)
+![mars_rover_animation](https://user-images.githubusercontent.com/3071529/160900980-c1fd8e1c-25a6-4df5-94fe-453c9e7433b5.gif)
 
 [Mars Rover Technical Challenge](https://code.google.com/archive/p/marsrovertechchallenge/)
 
