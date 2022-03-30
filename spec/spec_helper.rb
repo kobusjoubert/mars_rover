@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['MARS_ROVER_ENV'] ||= 'test'
+
 require 'mars_rover'
 
 RSpec.configure do |config|
