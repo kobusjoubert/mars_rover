@@ -1,5 +1,7 @@
 # MarsRover
 
+![Screenshot 2022-03-30 at 18 37 55](https://user-images.githubusercontent.com/3071529/160887021-391eb555-ffb5-47fb-bb5d-497a90839717.png)
+
 [Mars Rover Technical Challenge](https://code.google.com/archive/p/marsrovertechchallenge/)
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
