@@ -30,7 +30,7 @@ Clone the repository.
 
     git clone https://github.com/kobusjoubert/mars_rover.git
 
-Change into the project directory
+Change into the project directory.
 
     cd mars_rover
 
